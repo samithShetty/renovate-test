@@ -1,0 +1,11 @@
+{
+    "regexManagers": [
+      {
+        "fileMatch": ["^Jenkinsfile$"],
+        "matchStrings": ["^library 'pce-pipeline-utilities@v(?<currentValue>.*?)'\n"],
+        "depNameTemplate": "yarn",
+        "datasourceTemplate": "npm"
+      }
+    ],
+    "enabled_managers": ["regexManagers"]
+  }
