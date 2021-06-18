@@ -6,6 +6,5 @@
         "depNameTemplate": "yarn",
         "datasourceTemplate": "npm"
       }
-    ],
-    "enabled_managers": ["regexManagers"]
+    ]
   }
