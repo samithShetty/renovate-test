@@ -1,1 +1,1 @@
-library 'pce-pipeline-utilities@v1.19.10'
+library 'test-dep@v1.19.10'
