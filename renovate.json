@@ -2,7 +2,7 @@
     "regexManagers": [
       {
         "fileMatch": ["^Jenkinsfile$"],
-        "matchStrings": ["^library 'pce-pipeline-utilities@v(?<currentValue>.*?)'\n"],
+        "matchStrings": ["^library 'test-dep@v(?<currentValue>.*?)'\n"],
         "depNameTemplate": "yarn",
         "datasourceTemplate": "npm"
       }
